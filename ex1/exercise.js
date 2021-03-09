@@ -3,8 +3,9 @@ var object = {
     id: 1,
     title: "this is a note",
     content: "This is the amazing content of the note!",
-    body:"This is a body of the content"
+   
   }
+ object.body = "This is a body of the content";
   //changing the object to JSON Format.
   console.log("This is JSON format");
   const myJsonFile = JSON.stringify(object);
